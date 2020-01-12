@@ -1,0 +1,40 @@
+  <!-- voltar para o topo -->
+  <a href="#top" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- footer -->
+  <section class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+      <div class="col py-5">
+        <div class="text-center pb-3">
+          <i class="fa fa-instagram icone" href=""></i>
+          <i class="fa fa-behance icone"></i>
+          <i class="fa fa-linkedin icone"></i>
+        </div>
+        <div class="text-footer text-center h6">Yasmim Morais - 2020. Todos os direitos reservados.</div>
+      </div>
+    </div>
+    </div> 
+  </section>
+
+  <!-- Jquery needed -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+      <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+      </script>
+      <!-- partial -->
+      <script type="text/javascript" src="./script.js"></script>
+      <script type="text/javascript" src="./pace.min.js"></script>
+  </body>
+</html>
+  
+  
